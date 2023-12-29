@@ -63,7 +63,7 @@ void loop(){
     digitalWrite(blue, LOW);
 
     digitalWrite(indicator, HIGH);
-    tone(5, 262);
+    tone(5, 1048);
     delay(100);
     digitalWrite(indicator, LOW);
     noTone(5);
@@ -75,7 +75,7 @@ void loop(){
     digitalWrite(blue, HIGH);
 
     digitalWrite(indicator, HIGH);
-    tone(indicator, 262);
+    tone(indicator, 786);
     delay(250);
     digitalWrite(indicator, LOW);
     noTone(indicator);
@@ -87,7 +87,7 @@ void loop(){
     digitalWrite(blue, HIGH);
 
     digitalWrite(indicator, HIGH);
-    tone(indicator,262);
+    tone(indicator,524);
     delay(500);
     digitalWrite(indicator, LOW);
     noTone(indicator);
