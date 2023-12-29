@@ -31,9 +31,6 @@ void setup(){
 
   lcd.begin(I2C_ADDRESS, LCD_COLUMNS, LCD_ROWS);
   lcd.setBacklight(HIGH);
-
-   // Plays 262Hz tone for 0.250 seconds
-
   
 }
 
